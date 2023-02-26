@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	padding: 3px;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--primary-color: #FF0080;
+	--text-color: #727171;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/* Estilo de imagen */
+img {
+	width: 100%;
+	border-radius: 50%;
+}
+.titulo {
+	color:var(--primary-color) ;
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+/* Es un contenedor */
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+	background: #070707;
+	grid-template-columns: 1fr;
+	gap: 4rem;
+}
+@media only screen and (max-width: 768px) {
+	.contenedor {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 3rem;
+		gap: 7rem;
+	}
+}
+/* perfil */
+.perfil_contenedor {
+	display: flex;
+	gap: 2rem;
+}
+.perfil_nombre_nombre {
+	color: white;
+	font-weight: 200;
+	font-size: clamp(2rem, 8vw, 4rem);
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: -0.8rem;
+}
+.perfil_nombre_apellido {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: clamp(2.5rem, 15vw, 7rem);
+	text-transform: uppercase;
+	display: block;
+}
+.perfil_titulo {
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.lista_datos {
+	margin-top: 1rem;
+	margin-left: 4rem;
+	line-height: 5;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cv Juana Michele Toledo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/85b6022a31.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Css/estilo.css">
+  <style>
+
+    label{
+      display: block;
+      float: left;
+      width: 90px;
+    }
+  </style>
+</head>
+
+<body>
+ <!-- Aca empieza el curriculum-->
+  <div class="contenedor">
+    <div class="perfil">
+      <div class="perfil_contenedor">
+        <div class="perfil_perfilImg">
+          <img src="Foto.png" alt="Foto de perfil de Juana Michele Toledo">
+        </div>
+        <div>  
+          <h1 class="perfil_nombre">
+            <span class="perfil_nombre_nombre">Juana Michele</span>
+            <span class="perfil_nombre_apellido">Toledo</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="parte-1">
+        <h3 class="titulo">Informacion Personal</h3>
+        <ul class="lista_datos">
+          <li>Nacionalidad:Argentina</li>
+          <li>Edad:28 años</li>
+          <li>Estado civil: Soltera</li>
+          <li>Fecha de Nacimiento:15 de Junio de 1994</li>
+        </ul>
+    </div>  
+      <div>
+       <div class="parte-2">
+       <div class="listas">
+        <h3 class="titulo">Experiencia Laboral</h3>
+        <ul class="lista_datos">
+          <li>2015 - 2018 Tienda de Videojuegos Carlos/ San Francisco Solano-(Galeria Majestick)</li>
+          <li>2021- 2022  Auxiliar de Cosmetologia Dayloplas Magnolia /Burzaco</li>
+          <li>2018- 2023  Auxiliar de Farmacia Cervigni/Burzaco </li>
+        </ul>
+      </div>
+    </div>
+  <div> 
+      <div class="parte-3">
+         <h3 class="titulo">Habilidades</h3>
+         <ul class="lista_datos">
+          <li>Creatividad</li>
+          <li>Iniciativa y aprendizaje activo</li>
+          <li>Resolucion de problemas</li>
+          <li>Adaptabilidad</li>
+          <li>Paciencia</li>
+        </ul>
+    </div>
+      <div>
+      <div class="parte-4">
+          <h3 class="titulo">Educacion</h3>
+          <ul class="lista_datos">
+            <li>Secundario Completo: Institulo Santa Isabel & San Francisco Solano-</li>
+            <li>Cosmetologia: Instituto de Belleza   Dayloplas </li>
+            <li>Ingles: Nulinga Plataforma digital </li>
+    </div> 
+    <div>
+      <div class="parte-4">
+        <h3 class="titulo">Contacto</h3>
+        <ul class="lista_datos"></ul>
+          <i class="fa-solid fa-phone"><strong>11-66747370</strong></i><br><br>
+          <i class="fa-regular fa-envelope">juanamtoledo15@gmail.com</i><br><br>
+          <i class="fa-brands fa-instagram">juani_mishu</i><br><br><br>
+        </ul>
+    <div>
+       <h2>Deja tu nombre y un comentario</h2>
+       <form action="">
+        <div>
+          <label for="nombre">Nombre</label><br><br>
+          <input type="text" id='nombre'>
+        </div>
+        <div>
+          <label for="text">Comentario</label><br><br>
+          <input type="text" id='comentario'>
+        </div>
+        <input type="submit" onclick= 'return enviarComentario();' value='Enviar'>
+      </form>
+    <div id='error'></div>
+
+
+    <script src="js/function.js"></script>
+
+</body>
+
+</html>
